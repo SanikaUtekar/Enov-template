@@ -1,0 +1,308 @@
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.537)), url(images/about-header.jpg);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+.navbar-expand-lg{
+    background-color:rgba(0, 0, 0, 0.621) !important;
+    position: fixed;
+    width: 100%;
+}
+.nav-item{
+    padding: 5px;
+}
+nav{
+    z-index: 100;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 26px;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:  #28ABE3 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #28ABE3 !important;
+}
+/* header ended */
+/* section 1 started */
+.heading{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+.heading h2{
+    color: white;
+    text-align: center;
+}
+/* section 1 ended */
+/* section 2 started */
+/* .container{
+    margin-bottom: 50px;
+} */
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+    font-family: "Catamaran", sans-serif;
+}
+.title p{
+    color: #848484;
+    width: 40%;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+.divider{
+    width: 7%;
+    margin: 0 auto;
+    color: #078ec8;
+}
+hr:not([size]){
+    height: 3px;
+} 
+.col-md-6{
+    margin-top: 80px;
+}
+.col-md-6 img{
+   width: 100%;
+}
+.col-md-6 p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(132, 132, 132);
+    font-size: 17px;
+}
+.col-md-6 h4{
+    font-family: Catamaran, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.col-md-6 h4:hover{
+    color: #078ec8;
+}
+.col-md-6 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.list li i{
+    color: rgb(40, 171, 227);
+    margin-right: 8px;
+    font-size: 16px;
+}
+.list li{
+    margin-top: 10px;
+    width: 48%;
+    display: inline-block;
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    font-family: Catamaran, sans-serif;
+    margin-bottom: 5px;
+    font-weight: 600;
+    list-style-type: none;
+}
+.list li:hover{
+    color: #078ec8;
+}
+.btn{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #28ABE3;
+    border-color: rgb(40, 171, 227);
+    padding: 12px 40px;
+    border-radius: 40px;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: #0c89be;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .list li{
+        width: 90%;
+    }
+}
+/* section 2 ended */
+/* section 3 started */
+.team{
+    padding: 90px 0px;
+    background: rgb(246, 246, 246);
+}
+.title2{
+    text-align: center;
+}
+.title2 h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(35, 35, 35);
+    font-family: Catamaran, sans-serif;
+}
+.title2 p{
+    color: rgb(132, 132, 132);
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.col-md-4{
+    max-width: 28%;
+}
+.team-member{
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.team-photo{
+    overflow: hidden;
+    position: relative;
+}
+.team-photo img{
+    width: 100%;
+    transition: transform 2s;
+}
+.team-photo:hover img{
+    transform: scale(1.1,1.1);
+}
+.cover{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;;
+    background-color: #078ec89b;
+    transition: transform 0.5s linear;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-member:hover .cover{
+    transform: translateY(-20px);
+    visibility: visible;
+}
+.cover li{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: transparent;
+    list-style-type: none;
+    margin: 10px;
+    color: white;
+}
+.team-content{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.team-content h3{
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin: 0px 0px 5px;
+    font-family: Catamaran, sans-serif;
+    font-weight: 600;
+}
+.team-content:hover h3{
+    color: #078ec8;
+}
+.team-content span{
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+.team-content p{
+    color: rgb(119, 119, 119);
+    margin-top: 10px;
+    padding: 0px 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .col-md-4{
+        max-width: 98%;
+    }
+}
+@media  screen and (min-width:321px) and (max-width:768px) {
+    .cover{
+        height: 40px;
+    }
+    .team-member:hover .cover{
+        visibility:visible;
+        transform: translateY(-20px);
+    }
+    .team-content h3{
+        font-size: 18px;
+    }
+}
+/* section 3 ended */
+/* footer started */
+.footer-top{
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+.col-lg-3 h3{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.col-lg-3 p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+.col-lg-3 li{
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+.col-lg-3 li:hover{
+    color: #28ABE3;
+}
+.footer-bottom{
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+.footer-bottom h5{
+    font-size: 12px;
+    font-family: "Catamaran", sans-serif;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+.footer-bottom h6{
+    font-family: "Catamaran", sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+/* footer ended */

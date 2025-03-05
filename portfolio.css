@@ -1,0 +1,227 @@
+
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.537)), url(images/about-header.jpg);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+.navbar-expand-lg{
+    background-color:rgba(0, 0, 0, 0.621) !important;
+    position: fixed;
+    width: 100%;
+}
+.nav-item{
+    padding: 5px;
+}
+nav{
+    z-index: 1000 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 26px;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:  #28ABE3 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #28ABE3 !important;
+}
+/* header ended */
+/* section 1 started */
+.heading{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+.heading h2{
+    color: white;
+    text-align: center;
+}
+/* section 1 ended */
+/* section 2 started */
+.title{
+    text-align: center;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(35, 35, 35);
+    font-family: Catamaran, sans-serif;
+}
+.title p{
+    width: 60%;
+    margin: 0px auto;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(132, 132, 132);
+    font-size: 16px;
+}
+.divider{
+    width: 8%;
+    margin: 0 auto;
+    color: #0c89be;
+}
+hr:not([size]){
+    height: 3px;
+} 
+.nav{
+    justify-content: center;
+}
+.col-lg-3 img{
+    width:100%;
+}
+.col-lg-3{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    height:311px;
+    width: 93%;
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.478);
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay i{
+    color: white;
+    height: 40px;
+    width: 40px; 
+   border-radius: 50%;
+   line-height: 40px;
+   text-align: center;
+   background-color: #28ABE3;
+}
+.col-lg-3:hover .overlay{
+visibility: visible;
+}
+.overlay h4{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Catamaran, sans-serif;
+    font-weight: 600;
+}
+.button{
+    background-color:rgb(40, 171, 227);
+    margin: 5px;
+    width: auto;
+    line-height: auto;
+    padding: 0px 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:transparent;
+    font-size: 20px; 
+}
+.nav-pills .nav-link{
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* section 2 ended */
+/* section 3 started */
+.background{
+    background-color: #28ABE3;
+    height: 400px;
+}
+.testimonal_div{
+    margin-top: -320px;
+}
+.col-md-12{
+    text-align: center;
+}
+.icon i {
+    font-size: 60px;
+    color: white;
+    list-style-type: none;
+}
+.member p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 200;
+    padding: 0 10%;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+.member  img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .testimonal_div {
+        margin-top: -490px;
+    }
+    .background{
+        height: 500px;
+    }
+
+}
+/* section 3 ended */
+/* footer started */
+.footer-top{
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+.col-lg-3 h3{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.col-lg-3 p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+.col-lg-3 li{
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+.col-lg-3 li:hover{
+    color: #28ABE3;
+}
+.footer-bottom{
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+.footer-bottom h5{
+    font-size: 12px;
+    font-family: "Catamaran", sans-serif;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+.footer-bottom h6{
+    font-family: "Catamaran", sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+/* footer ended */
